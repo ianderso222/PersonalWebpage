@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+        
+        
+        <script src="jquery.simpleWeather.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script>$(document).ready(function() { $.simpleWeather({ location: 'Bowling Green, KY', woeid: '', unit: 'f', success: function(weather) { html = '
+<p>'+weather.temp+'&deg;'+weather.units.temp+'</p>'; $("#weather").html(html); }, error: function(error) { $("#weather").html('
+<p>'+error+'</p>'); } }); });
+        </script>
+      
+       
+    </head>
+    
+    
+    <body>
+    <div id="header">
+        <div id="name">Ian Anderson <div id="hidden">No Relation to Jethro Tull</div></div>
+    </div>   
+        <div id="location">Based in tech mecca: Bowling Green, Kentucky</div> 
+        
+        <div id="weather"></div>
+        <div id="skills">Fluent in:</div>
+        <div id="htmlCss">HTML, CSS, and Javascript</div>
+        <div id="other">Jquery, SASS, Git, Photoshop, Illustrator</div>
+        
+        
+        
+    </body>
+    
+    
+    <footer>
+    
+    </footer>
+
+
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Ian Anderson Web Design</title>
+    <link rel="stylesheet" type="text/css" href="blogstyles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" type="image/png" href="images/IanLogo.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/IanLogo.png" sizes="32x32">
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.simpleWeather({
+                location: 'Bowling Green, KY',
+                woeid: '',
+                unit: 'f',
+                success: function(weather) {
+                    html = '<div id="temp"><i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</div>';
+
+
+
+
+                    $("#weather").html(html);
+                },
+                error: function(error) {
+                    $("#weather").html('<p>' + error + '</p>');
+                }
+            });
+        });
+
+    </script>
+
+</head>
+
+
+<body>
+
+
+    <div class="topHeader">
+        <div class="rightNav">
+            <div id="back"><a href="home.html">Home</a></div>
+            <div id="blue"><a href="work.html">Work</a></div>
+            <div id="green"><a href="contact.html">Contact</a></div>
+            <div id="orange"><a href="https://github.com/ianderso222">Git</a></div>
+            <div id="yellow"><a href="blog.html">Blog</a></div>
+        </div>
+
+        <div class="header">Blog</div>
+    </div>
+    <div id="webDev"></div>
+    <div class="title">Title Here</div>
+    <div class="date">10/21/2015</div>
+    <div class="content">
+        <p>Lorizzle ipsizzle dolor that's the shizzle amizzle, i'm in the shizzle adipiscing elizzle. Nizzle dizzle bizzle, boom shackalack shit, suscipizzle quis, sizzle vizzle, arcu. Pellentesque shit tortizzle. Stuff erizzle. Sheezy izzle dolizzle shizznit the bizzle tempizzle bow wow wow. Maurizzle pellentesque nibh get down get down turpizzle. We gonna chung in tortizzle. Pellentesque eleifend rhoncizzle boofron. In hac habitasse bling bling dictumst. Shizzle my nizzle crocodizzle dapibizzle. Brizzle tellus urna, fo shizzle own yo', mattizzle ac, things vitae, nunc. Its fo rizzle suscipit. Integizzle pizzle shizznit sizzle fizzle.</p>
+
+        <p> Phasellizzle fizzle gangster nizzle. Ut we gonna chung adipiscing phat. Shizzlin dizzle shizzlin dizzle est. Nulla away black, pizzle nec, accumsizzle , gizzle quizzle, pede. Duis nizzle fo. Etizzle rutrizzle ornare ante. Maurizzle justo. Vestibulizzle sheezy sure things that's the shizzle we gonna chung commodo. Lorem ipsizzle shizzle my nizzle crocodizzle boom shackalack crazy, gangsta adipiscing elizzle. Phat izzle things. Ma nizzle mi sem, pimpin' izzle, shizzle my nizzle crocodizzle a, eleifend a, elit.</p>
+
+        <img class="contentImagelarge" src="images/pic1.png" />
+        <div class="imageKicker">Description of the image.</div>
+
+        <p>Praesent pizzle mi non maurizzle posuere bibendum. We gonna chung shit tellivizzle cool. Cool id shizznit et sodales pizzle. Aliquizzle fizzle, mauris gangsta dapibizzle ma nizzle, nulla my shizz bibendizzle dang, et that's the shizzle augue dope izzle arcu. Vivamizzle get down get down lacus pizzle gangsta. Vivamus mofo phat, fo shizzle my nizzle yo mamma amet, faucibizzle izzle, placerat izzle, maurizzle. Sed my shizz laorizzle nibh. Vestibulum crazy dizzle, hendrerizzle izzle, condimentum izzle, fo shizzle a, for sure. Morbi aliquam placerat fizzle. Maecenizzle things erizzle shit erizzle. Bling bling metizzle sem, izzle eu, accumsizzle shizzle my nizzle crocodizzle, elementizzle egizzle, neque. Nulla iaculis nunc a orci the bizzle sodales. Fusce black, rizzle go to hizzle sollicitudin mollizzle, lacizzle shiz luctus , vitae vehicula augue check out this vitae nizzle. Rizzle shizznit lacizzle. Fo shizzle sizzle my shizz. Dizzle eu turpizzle. Its fo rizzle a da bomb. Sed you son of a bizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, cool izzle, tempizzle izzle, izzle, own yo'. Nunc tellizzle. Nulla go to hizzle eros, tristique sizzle dawg, ultricizzle i saw beyonces tizzles and my pizzle went crizzle, tincidunt non, augue.</p>
+
+        <img class="contentImage4wide" src="images/pic2.jpg" />
+        <img class="contentImage4wide" src="images/pic3.jpg" />
+        <img class="contentImage4wide" src="images/pic4.jpg" />
+        <img class="contentImage4wide" src="images/pic5.jpg" />
+
+
+        <p>Maecenas uhuh ... yih! pot. Boofron uhuh ... yih!. We gonna chung condimentum, turpizzle shut the shizzle up congue the bizzle, metus shizzlin dizzle nizzle fizzle, egizzle ullamcorpizzle dui shizznit you son of a bizzle bizzle. Crizzle boofron elizzle. Duis fizzle lectizzle, consequizzle doggy, ornare volutpat, porttitizzle cool, tellizzle. Sheezy sizzle urna. Phat gangsta mi shizzle my nizzle crocodizzle we gonna chung. Doggy hendrerizzle euismod felizzle. Donec ultrices nisl fo shizzle erat. Etiam break yo neck, yall lacinia mi. Ut sizzle. You son of a bizzle rizzle metus, euismod izzle, crunk sizzle, shit vizzle, nisi. Mah nizzle vulputate consectetizzle hizzle.</p>
+
+        <p>In gravida ligula nec est. Go to hizzle ullamcorper. Etizzle tempizzle. Donec izzle ghetto a eros imperdizzle . Dizzle ass ipsizzle. That's the shizzle iaculis away izzle crackalackin. Praesent ma nizzle ipsum shit urna ullamcorpizzle. Mah nizzle nizzle risus. Vivamizzle da bomb lacizzle vel things. Morbi egizzle sheezy. Etizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle dui izzle magna bling bling lobortizzle. Shiz placerizzle, arcu nizzle go to hizzle tellivizzle, nisl est doggy away, cursus ornare mi dolizzle sit amet dizzle. Morbi turpizzle. Vestibulizzle ante ipsizzle doggy izzle shiz orci pizzle et gangsta posuere cubilia Curae; Vestibulizzle vehicula, hizzle laorizzle tincidunt hendrerit, risizzle yo mamma phat nunc, a fermentum shizznit metus for sure nibh. Duis fo shizzle my nizzle fizzle bizzle nulla. Shizzlin dizzle pizzle. Cum sociis natoque uhuh ... yih! bling bling magnis dizzle parturient montizzle, check out this ridiculizzle mus. Prizzle izzle go to hizzle pot quizzle ultricizzle congue. Owned the bizzle mi.</p>
+    </div>
+
+
+
+
+    <div class="footerFixer"></div>
+
+</body>
+
+
+<footer>
+    <div id="back"><a href="home.html">Home</a></div>
+    <div id="blue"><a href="work.html">Work</a></div>
+    <div id="green"><a href="contact.html">Contact</a></div>
+    <div id="orange"><a href="https://github.com/ianderso222">Git</a></div>
+    <div id="yellow"><a href="blog.html">Blog</a></div>
+    
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-69781668-1', 'auto');
+ga('send', 'pageview');
+
+    </script>
+</footer>
+
+
+
+</html>
